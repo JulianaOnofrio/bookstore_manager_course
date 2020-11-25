@@ -6,6 +6,7 @@ import com.julianaonofrio.bookstoremanager.entity.Book;
 import com.julianaonofrio.bookstoremanager.exception.BookNotFoundException;
 import com.julianaonofrio.bookstoremanager.mapper.BookMapper;
 import com.julianaonofrio.bookstoremanager.repository.BookRepository;
+import org.assertj.core.util.VisibleForTesting;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -38,5 +39,7 @@ public class BookService {
         Book book = bookRepository.findById(id)
                 .orElseThrow(() -> new BookNotFoundException(id));
         return bookMapper.toDTO(book);
+
     }
+
 }
