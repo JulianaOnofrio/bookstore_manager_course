@@ -2,7 +2,7 @@
 
 O objetivo do projeto Bookstore API Manager é disponibilizar uma API para cadastro dos livros de uma livraria através de uma API REST.
 
-O projeto foi desenvolvido como base de criação do curso introdutório sobre Spring Boot, publicado na Udemy em novembro de 2020.
+O projeto foi desenvolvido como base de criação do curso introdutório sobre Spring Boot, em novembro de 2020.
 
 Durante o projeto, são abordados os seguintes tópicos:
 
